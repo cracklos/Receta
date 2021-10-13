@@ -17,6 +17,7 @@ var tronco_inclinado, tronco_inclinado2;
 
 var pajaro;
 var backgroundImg;
+var plataforma;
 
 function preload(){
   backgroundImg = loadImage("sprites/bg.png");
@@ -30,6 +31,7 @@ function setup() {
   mundo = motor.world;
 
   ground = new Ground(600,height,1200,20);
+  plataforma = new Ground(150,305,300,170);
 
   caja = new Box(700,365,70,70);
   caja2 = new Box(920,365,70,70);
@@ -67,5 +69,6 @@ function draw() {
   tronco_inclinado2.display();
   caja5.display();
   pajaro.display();
+  plataforma.display();
   //console.log(mouseX,mouseY);
 }
