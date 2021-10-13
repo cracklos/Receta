@@ -70,5 +70,8 @@ function draw() {
   caja5.display();
   pajaro.display();
   plataforma.display();
-  //console.log(mouseX,mouseY);
+  //git add sketch.js
+  //git commit -m "Add platform"
+  //git push -u demo
+  
 }
