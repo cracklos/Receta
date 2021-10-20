@@ -7,3 +7,4 @@ ls = lista todos los elementos del directorio
 cd = para ir o cambiar el directorio/carpeta
 cd- = para regressar en el directorio 
 mkdir = crear directorio 
+@
